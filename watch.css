@@ -1,0 +1,161 @@
+
+li{
+    display:inline-block;
+    magin-left: 140px;
+    border: 2px solid black;
+    border-radius:10px ;
+    padding:7px;
+    box-shadow: 0px 0px 15px 0px gray;
+    color: white;
+    margin: 30px;
+  } 
+  a{
+  	text-decoration: none;
+  }
+  .main{
+    height: 1100px;
+    width:100%;
+    border:2px solid red;
+
+  }
+   .second{
+  	height: 470px;
+  	width:100%;
+  	display:flex;
+  }
+  li:hover{
+    color: gray;   
+  }
+  
+  .leftb{
+  	height:500px;
+  	width:60%;
+  }
+  .rightb{
+  	height:500px;
+  	width:50%;
+  }
+  .abc{
+  	font-size:20px;
+  }
+  h1{
+    font-size:30px;
+    margin-left:230px;
+    margin-bottom: 10PX;
+    margin-top:80px;  
+  }
+  h3{
+    margin-left:230px;
+    font-size:80px;
+    margin-top:80px;
+    color: red;
+  }
+  p{
+    margin-left:200px;
+    font-size:30px;
+  }
+  
+.leftb{
+
+		animation-name: kt;
+		animation-duration: 5s;
+		animation-direction: alternate-reverse;
+		animation-iteration-count: infinite;
+
+  }
+  @keyframes kt{
+
+  				0%{
+
+  						background-image: url('watch1.jpg');
+  						background-size: cover;
+  						object-fit: contain;
+
+  				}
+  				75%{
+
+  						background-image: url('watch2.jpg');
+  						background-size: cover;
+  						object-fit: contain;
+  				}
+
+  				100%{
+  						background-image: url('watch3.jpg');
+  						background-size: cover;
+  						object-fit: contain;
+  					}
+
+  }
+  .third{
+    height:100px;
+    width: 100%;
+    margin-top: 50px;
+    display:flex;
+    box-shadow:0px 0px 5px 5px gray;
+  }
+  .small1{
+    height:100px;
+    width:32%;
+  }
+  .small2{
+    height:100px;
+    width:32%;
+  }.small3{
+    height:100px;
+    width:32%;
+  }.small4{
+    height:100px;
+    width:32%;
+  }
+  .fa{
+   font-size: 60px;
+   margin-left: 10px;
+   color:skyblue;
+   margin-left:10px ;
+  }
+  span{
+    margin-top:30px;
+    margin-left:30px;
+  }
+  .watches{
+    height:415px;
+    width: 100%;
+    border:2px solid red;
+    display:flex;
+  }
+  .watch1{
+    height:400px;
+    width: 50%;
+    border:2px solid green;
+    margin-top: 10px;
+  }
+  .watch2{
+    height:400px;
+    width: 50%;
+    border:2px solid green;
+    margin-top:10px;
+  }
+  .watch1{
+    background-image: url(tripl3.jpg);
+    background-size: cover;
+  }
+ h2{
+    margin-left:330px;
+    position:relative;
+    font-size:20px;
+
+ }
+  .para{
+    position:relative;
+    right:70px;
+  }
+  .head{
+    position:relative;
+    right:80px;
+  }
+
+  
+
+
+  
+ 
